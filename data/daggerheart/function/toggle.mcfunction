@@ -27,10 +27,14 @@ item replace entity @e[type=armor_stand,tag=dh_new,limit=1] armor.chest with min
 loot replace entity @e[type=armor_stand,tag=dh_new,limit=1] armor.head loot daggerheart:summoner_head
 data modify entity @e[type=armor_stand,tag=dh_new,limit=1] DisabledSlots set value 4144959
 
-# 8. Summon the floating text display and tag it as 'dh_new'
-summon text_display ~ ~1.2 ~ {Tags:["dh_text","dh_new"],text:{text:"Close Range",color:"gold",bold:true},billboard:"center",teleport_duration:2,background:0,shadow_radius:0f}
+# 8. Summon the 5 floating text displays, scaled down to 50% size
+summon text_display ~ ~0.7 ~ {Tags:["dh_text","dh_melee","dh_new"],text:{text:"Melee: 1.5m",color:"red",bold:true},billboard:"center",teleport_duration:2,background:0,shadow_radius:0f,transformation:{scale:[0.5f,0.5f,0.5f]}}
+summon text_display ~ ~0.7 ~ {Tags:["dh_text","dh_vclose","dh_new"],text:{text:"Very Close: 3m",color:"gold",bold:true},billboard:"center",teleport_duration:2,background:0,shadow_radius:0f,transformation:{scale:[0.5f,0.5f,0.5f]}}
+summon text_display ~ ~0.7 ~ {Tags:["dh_text","dh_close","dh_new"],text:{text:"Close: 9m",color:"yellow",bold:true},billboard:"center",teleport_duration:2,background:0,shadow_radius:0f,transformation:{scale:[0.5f,0.5f,0.5f]}}
+summon text_display ~ ~0.7 ~ {Tags:["dh_text","dh_far","dh_new"],text:{text:"Far: 30m",color:"green",bold:true},billboard:"center",teleport_duration:2,background:0,shadow_radius:0f,transformation:{scale:[0.5f,0.5f,0.5f]}}
+summon text_display ~ ~0.7 ~ {Tags:["dh_text","dh_vfar","dh_new"],text:{text:"Very Far: 90m",color:"blue",bold:true},billboard:"center",teleport_duration:2,background:0,shadow_radius:0f,transformation:{scale:[0.5f,0.5f,0.5f]}}
 
-# 9. Assign the player's unique ID to the new stand and text so they permanently "own" them
+# 9. Assign the player's unique ID to the new stand and ALL 5 texts so they permanently "own" them
 scoreboard players operation @e[tag=dh_new] dh_id = #current_player dh_id
 
 # 10. Add the new armor stand to the ghost team to activate the transparency effect

@@ -1,36 +1,189 @@
-execute positioned ~ ~1 ~ rotated 0 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 10 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 20 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 30 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 40 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 50 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 60 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 70 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 80 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 90 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 100 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 110 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 120 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 130 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 140 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 150 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 160 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 170 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 180 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 190 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 200 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 210 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 220 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 230 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 240 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 250 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 260 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 270 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 280 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 290 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 300 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 310 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 320 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 330 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 340 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
-execute positioned ~ ~1 ~ rotated 350 0 positioned ^ ^ ^5 run function daggerheart:ground_particle
+# --- MELEE RING (1.5) ---
+execute positioned ~ ~1 ~ rotated 0 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 10 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 20 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 30 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 40 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 50 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 60 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 70 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 80 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 90 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 100 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 120 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 130 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 140 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 150 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 160 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 110 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 170 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 180 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 190 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 200 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 210 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 220 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 230 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 240 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 250 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 260 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 270 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 280 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 290 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 300 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 310 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 320 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 330 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 340 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+execute positioned ~ ~1 ~ rotated 350 0 positioned ^ ^ ^1.5 run function daggerheart:ground_particle {color:"[1.0, 0.1, 0.1]"}
+
+# --- VERY CLOSE RING (3) ---
+execute positioned ~ ~1 ~ rotated 0 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 10 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 20 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 30 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 40 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 50 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 60 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 70 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 80 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 90 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 100 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 110 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 120 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 130 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 140 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 150 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 160 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 170 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 180 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 190 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 200 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 210 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 220 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 230 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 240 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 250 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 260 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 270 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 280 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 290 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 300 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 310 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 320 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 330 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 340 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+execute positioned ~ ~1 ~ rotated 350 0 positioned ^ ^ ^3 run function daggerheart:ground_particle {color:"[1.0, 0.5, 0.0]"}
+
+# --- CLOSE RING (9) ---
+execute positioned ~ ~1 ~ rotated 0 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 10 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 20 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 30 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 40 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 50 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 60 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 70 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 80 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 90 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 100 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 110 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 120 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 130 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 140 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 150 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 160 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 170 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 180 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 190 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 200 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 210 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 220 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 230 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 240 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 250 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 260 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 270 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 280 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 290 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 300 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 310 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 320 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 330 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 340 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 350 0 positioned ^ ^ ^9 run function daggerheart:ground_particle {color:"[1.0, 1.0, 0.2]"}
+
+# --- FAR RING (30) ---
+execute positioned ~ ~1 ~ rotated 0 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 10 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 20 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 30 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 40 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 50 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 60 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 70 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 80 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 90 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 100 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 110 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 120 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 130 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 140 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 150 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 160 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 170 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 180 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 190 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 200 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 210 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 220 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 230 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 240 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 250 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 260 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 270 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 280 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 290 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 300 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 310 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 320 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 330 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 340 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+execute positioned ~ ~1 ~ rotated 350 0 positioned ^ ^ ^30 run function daggerheart:ground_particle {color:"[0.2, 1.0, 0.2]"}
+
+# --- VERY FAR RING (90) ---
+execute positioned ~ ~1 ~ rotated 0 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 10 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 20 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 30 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 40 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 50 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 60 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 70 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 80 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 90 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 100 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 110 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 120 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 130 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 140 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 150 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 160 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 170 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 180 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 190 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 200 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 210 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 220 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 230 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 240 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 250 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 260 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 270 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 280 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 290 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 300 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 310 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 320 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 330 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 340 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
+execute positioned ~ ~1 ~ rotated 350 0 positioned ^ ^ ^90 run function daggerheart:ground_particle {color:"[0.2, 0.2, 1.0]"}
