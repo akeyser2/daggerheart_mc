@@ -1,16 +1,18 @@
-# 1. Detect if anyone right-clicked with our item
+# 1. Give every player a unique ID and add them to the ghost team
+execute as @a unless score @s dh_id matches 1.. store result score @s dh_id run scoreboard players add #global dh_id 1
+team join dh_ghost @a[team=!dh_ghost]
+
+# 2. Detect if anyone right-clicked with our item
 execute as @a[scores={dh_click=1..}] at @s run function daggerheart:toggle
 
-# 2. Reset the score immediately so it doesn't fire multiple times
+# 3. Reset the score immediately so it doesn't fire multiple times
 scoreboard players reset @a dh_click
 
-# 3. Make all active Daggerheart armor stands emit the flame ring
+# 4. Make all active Daggerheart armor stands emit the flame ring
 execute as @e[type=armor_stand,tag=dh_aura] at @s run function daggerheart:ring
 
-# 4. Handle In-World Proximity Text
-# Calculate where the player is, and permanently slide the text display to the edge of the 5m ring closest to them
+# 5. Handle In-World Proximity Text
 execute as @e[type=armor_stand,tag=dh_aura] at @s facing entity @p[distance=..10,limit=1,sort=nearest] feet run tp @e[type=text_display,tag=dh_text,distance=..8,limit=1,sort=nearest] ^ ^1.2 ^5
 
-# 5. Auto-Cleanup
-# If a text display ever finds itself without an armor stand within 8 blocks, it will instantly delete itself
+# 6. Auto-Cleanup
 execute as @e[type=text_display,tag=dh_text] at @s unless entity @e[type=armor_stand,tag=dh_aura,distance=..8] run kill @s
