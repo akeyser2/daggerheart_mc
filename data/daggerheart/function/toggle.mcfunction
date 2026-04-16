@@ -9,8 +9,8 @@ execute store success score #temp dh_click if entity @e[type=armor_stand,tag=dh_
 # (If the stand is destroyed here, the text display will auto-delete itself instantly!)
 execute run kill @e[type=armor_stand,tag=dh_aura,distance=..128,limit=1,sort=nearest]
 
-# If there WAS NOT a stand close by (meaning they want to turn it on, or relocate it from far away), summon a new one!
-execute if score #temp dh_click matches 0 run summon armor_stand ~ ~ ~ {Tags:["dh_aura"],NoGravity:1b,Invulnerable:1b,ShowArms:1b,NoBasePlate:1b}
+# If there WAS NOT a stand close by, summon a new one (Removed NoGravity:1b so it falls to the ground)
+execute if score #temp dh_click matches 0 run summon armor_stand ~ ~ ~ {Tags:["dh_aura"],Invulnerable:1b,ShowArms:1b,NoBasePlate:1b}
 
 # Instantly equip the leather armor to the newly spawned armor stand
 execute if score #temp dh_click matches 0 run item replace entity @e[type=armor_stand,tag=dh_aura,distance=..5,limit=1,sort=nearest] armor.feet with minecraft:leather_boots
