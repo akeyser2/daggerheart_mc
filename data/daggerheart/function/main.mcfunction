@@ -20,3 +20,7 @@ execute as @e[type=armor_stand,tag=dh_aura] at @s facing entity @p[distance=..15
 
 # 6. Auto-Cleanup
 execute as @e[type=text_display,tag=dh_text] at @s unless entity @e[type=armor_stand,tag=dh_aura,distance=..100] run kill @s
+
+# --- BUTTON DETECTION ---
+# Check any dropped item that hasn't been processed yet to see if it's a Daggerheart button
+execute as @e[type=item,tag=!dh_processed] if items entity @s contents *[custom_data~{dh_button:1b}] run function daggerheart:buttons/check
