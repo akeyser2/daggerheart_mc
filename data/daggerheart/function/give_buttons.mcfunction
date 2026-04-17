@@ -3,7 +3,7 @@ item replace entity @s inventory.7 with music_disc_11[custom_name={"text":"Lose 
 item replace entity @s inventory.8 with sunflower[custom_name={"text":"Gain Hope","color":"gold","italic":false},custom_data={dh_button:1b,dh_gain_hope:1b}]
 
 # --- ROW 2 (Health) ---
-item replace entity @s inventory.16 with beetroot[custom_name={"text":"Gain Health","color":"red","italic":false},custom_data={dh_button:1b,dh_lose_health:1b}]
+item replace entity @s inventory.16 with beetroot[custom_name={"text":"Lose Health","color":"dark_red","italic":false},custom_data={dh_button:1b,dh_lose_health:1b}]
 item replace entity @s inventory.17 with apple[custom_name={"text":"Gain Health","color":"red","italic":false},custom_data={dh_button:1b,dh_gain_health:1b}]
 
 # --- ROW 3 (Stress) ---

@@ -3,7 +3,7 @@
 tellraw @p {"text":"+ Stress Gained!","color":"dark_purple"}
 
 # 2. Put the item back into the exact same inventory slot (Slot 26 for Gain Stress)
-item replace entity @s inventory.26 with black_candle[custom_name={"text":"Gain Stress","color":"dark_purple","italic":false},custom_data={dh_button:1b,dh_action:"gain_stress"}]
+item replace entity @p inventory.26 with black_candle[custom_name={"text":"Gain Stress","color":"dark_purple","italic":false},custom_data={dh_button:1b,dh_gain_stress:1b}]
 
 # 3. Destroy the dropped item entity in the world so it vanishes instantly
 kill @s
