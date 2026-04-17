@@ -1,0 +1,1 @@
+$execute positioned ~ ~1 ~ rotated $(angle) 0 positioned ^ ^ ^$(radius) run function daggerheart:ground_particle {color:$(color)}

@@ -7,3 +7,6 @@ scoreboard objectives add dh_id dummy
 # Setup the team for the semi-transparent "ghost" effect
 team add dh_ghost
 team modify dh_ghost seeFriendlyInvisibles true
+
+# Setup the scoreboard for macro loop math
+scoreboard objectives add dh_math dummy
