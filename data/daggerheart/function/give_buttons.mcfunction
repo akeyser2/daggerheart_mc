@@ -1,5 +1,5 @@
 # --- ROW 1 (Hope) ---
-item replace entity @s inventory.7 with disc_fragment_5[custom_name={"text":"Lose Hope","color":"dark_gray","italic":false},custom_data={dh_button:1b,dh_lose_hope:1b}]
+item replace entity @s inventory.7 with music_disc_11[custom_name={"text":"Lose Hope","color":"dark_gray","italic":false},custom_data={dh_button:1b,dh_lose_hope:1b},!jukebox_playable]
 item replace entity @s inventory.8 with sunflower[custom_name={"text":"Gain Hope","color":"gold","italic":false},custom_data={dh_button:1b,dh_gain_hope:1b}]
 
 # --- ROW 2 (Health) ---
