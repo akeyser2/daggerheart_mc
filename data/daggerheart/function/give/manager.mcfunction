@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_data={dh_stat_manager:1b},item_name=[{"text":"Stat Manager","bold":true,"italic":false,"underlined":true,"color":"yellow"}]]

@@ -2,8 +2,8 @@
 execute as @a unless score @s dh_id matches 1.. store result score @s dh_id run scoreboard players add #global dh_id 1
 team join dh_ghost @a[team=!dh_ghost]
 
-# 2. Detect if anyone right-clicked with our item
-execute as @a[scores={dh_click=1..}] at @s run function daggerheart:toggle
+# 2. Route any right-clicks to our new item handler
+execute as @a[scores={dh_click=1..}] at @s run function daggerheart:item_handler
 
 # 3. Reset the score immediately so it doesn't fire multiple times
 scoreboard players reset @a dh_click
@@ -20,3 +20,14 @@ execute as @e[type=armor_stand,tag=dh_aura] at @s facing entity @p[distance=..15
 
 # 6. Auto-Cleanup
 execute as @e[type=text_display,tag=dh_text] at @s unless entity @e[type=armor_stand,tag=dh_aura,distance=..100] run kill @s
+
+# --- MENU ROUTING ---
+# Allow all players to click the chat menu buttons
+scoreboard players enable @a dh_menu
+
+# Detect which button they clicked (1=Health Up, 2=Health Down)
+execute as @a[scores={dh_menu=1}] at @s run function daggerheart:health_up
+execute as @a[scores={dh_menu=2}] at @s run function daggerheart:health_down
+
+# Reset the click so they can use it again
+scoreboard players reset @a[scores={dh_menu=1..}] dh_menu

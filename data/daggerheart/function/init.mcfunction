@@ -10,3 +10,6 @@ team modify dh_ghost seeFriendlyInvisibles true
 
 # Setup the scoreboard for macro loop math
 scoreboard objectives add dh_math dummy
+
+# Setup the multiplayer-safe trigger scoreboard for our custom menu
+scoreboard objectives add dh_menu trigger
