@@ -10,3 +10,7 @@ team modify dh_ghost seeFriendlyInvisibles true
 
 # Setup the scoreboard for macro loop math
 scoreboard objectives add dh_math dummy
+
+# Setup scoreboards for Hope and Stress resources
+scoreboard objectives add dh_hope dummy
+scoreboard objectives add dh_stress dummy

@@ -24,3 +24,10 @@ execute as @e[type=text_display,tag=dh_text] at @s unless entity @e[type=armor_s
 # --- BUTTON DETECTION ---
 # Check any dropped item that hasn't been processed yet to see if it's a Daggerheart button
 execute as @e[type=item,tag=!dh_processed] if items entity @s contents *[custom_data~{dh_button:1b}] run function daggerheart:buttons/check
+
+# Initialize missing Hope and Stress scores to 0 for new players
+execute as @a unless score @s dh_hope matches -100.. run scoreboard players set @s dh_hope 0
+execute as @a unless score @s dh_stress matches -100.. run scoreboard players set @s dh_stress 0
+
+# Display the Hope and Stress UI in the Actionbar above the hotbar
+execute as @a run title @s actionbar [{"text":"Hope: ","color":"gold","bold":true},{"score":{"name":"*","objective":"dh_hope"},"color":"white","bold":false},{"text":"/6","color":"gray"},{"text":"   |   ","color":"dark_gray","bold":false},{"text":"Stress: ","color":"dark_purple","bold":true},{"score":{"name":"*","objective":"dh_stress"},"color":"white","bold":false},{"text":"/6","color":"gray"}]
