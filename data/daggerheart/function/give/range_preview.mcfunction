@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name={"text":"Range Viewer","color":"gold","italic":false},custom_data={daggerheart_item:1b}]
