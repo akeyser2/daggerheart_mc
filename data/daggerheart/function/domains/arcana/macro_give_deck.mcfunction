@@ -1,0 +1,1 @@
+$give @s purple_bundle[custom_name={"text":"Arcana Domain Deck","color":"light_purple","bold":true,"italic":false},bundle_contents=$(cards)]
