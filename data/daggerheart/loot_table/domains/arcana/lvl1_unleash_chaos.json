@@ -1,0 +1,170 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:flow_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Unleash Chaos - 1",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Arcana Domain",
+                      "color": "light_purple",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 1 Spell",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "At the beginning of a session, place a number",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "of tokens equal to your ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Spellcast",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " trait on this card.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Make a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Spellcast Roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " against a target within ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Far",
+                      "color": "white",
+                      "italic": true
+                    }
+                  ],
+                  {
+                    "text": "range and spend any number of tokens to channel",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "raw energy from within yourself to unleash against them.",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "On a success, roll a number of ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "d10s",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " equal to",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "the tokens you spent and deal that much",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "magic damage to the target.",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Mark a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": " to replenish this card with tokens.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "At the end of each session, clear all unspent tokens.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

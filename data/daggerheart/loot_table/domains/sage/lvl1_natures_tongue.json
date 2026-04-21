@@ -1,0 +1,98 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:wild_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Nature's Tongue - 1",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Sage Domain",
+                      "color": "green",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 1 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 0",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Speak with plants and animals; make an ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Instinct Roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " (12) to learn what they know.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Before a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Spellcast Roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " in nature, spend a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hope",
+                      "color": "gold",
+                      "italic": true
+                    },
+                    {
+                      "text": " to gain +2.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

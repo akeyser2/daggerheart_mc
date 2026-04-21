@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:rib_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Shadowhunter - 8",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Midnight Domain",
+                      "color": "dark_gray",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 8 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 2",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "While shrouded in low light or darkness, gain +1 ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Evasion",
+                      "color": "white",
+                      "italic": true
+                    }
+                  ],
+                  [
+                    {
+                      "text": "and make attack rolls with ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "advantage",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

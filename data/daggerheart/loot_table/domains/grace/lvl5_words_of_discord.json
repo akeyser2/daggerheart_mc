@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:spire_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Words of Discord - 5",
+                  "color": "#FF99CC",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Grace Domain",
+                      "color": "#FF99CC",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 5 Spell",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Whisper words of discord and make a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Spellcast Roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " (13).",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "On success, target marks a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": " and attacks another enemy.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "The next cast on same target has a -5 Spellcast penalty.",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

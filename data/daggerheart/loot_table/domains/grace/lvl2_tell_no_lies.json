@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:spire_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Tell No Lies - 2",
+                  "color": "#FF99CC",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Grace Domain",
+                      "color": "#FF99CC",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 2 Spell",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Make a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Spellcast Roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " against a target within Very Close range.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "On a success, they can't lie to you while within Close range.",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "If they refuse to answer, they must mark a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": " and it ends.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

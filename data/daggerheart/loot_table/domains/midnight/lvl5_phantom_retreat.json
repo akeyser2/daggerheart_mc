@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:rib_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Phantom Retreat - 5",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Midnight Domain",
+                      "color": "dark_gray",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 5 Spell",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 2",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Spend a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hope",
+                      "color": "gold",
+                      "italic": true
+                    },
+                    {
+                      "text": " to activate Phantom Retreat at your location.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Spend another ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hope",
+                      "color": "gold",
+                      "italic": true
+                    },
+                    {
+                      "text": " before next rest to return instantly to it.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

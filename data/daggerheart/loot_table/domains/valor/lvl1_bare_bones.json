@@ -1,0 +1,132 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:bolt_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Bare Bones - 1",
+                  "color": "#FFA500",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Valor Domain",
+                      "color": "#FFA500",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 1 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 0",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "When not wearing armor, base ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Armor Score",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " is 3 + ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Strength",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Base thresholds: Tier1 ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "9/19",
+                      "color": "white",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": ", Tier2 ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "11/24",
+                      "color": "white",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": ", Tier3 ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "13/31",
+                      "color": "white",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": ", Tier4 ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "15/38",
+                      "color": "white",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

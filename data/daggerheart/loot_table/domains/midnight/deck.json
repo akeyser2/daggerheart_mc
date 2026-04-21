@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:black_bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {"text":"Midnight Domain Deck","color":"dark_gray","bold":true,"italic":false}
+              }
+            },
+            {
+              "function": "minecraft:set_contents",
+              "component": "minecraft:bundle_contents",
+              "entries": [
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl10_eclipse"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl10_specter_of_the_dark"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl9_night_terror"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl9_twilight_toll"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl8_shadowhunter"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl8_spellcharge"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl7_midnight_touched"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl7_vanishing_dodge"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl6_dark_whispers"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl6_mass_disguise"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl5_hush"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl5_phantom_retreat"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl4_glyph_of_nightfall"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl4_stealth_expertise"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl3_chokehold"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl3_veil_of_night"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl2_midnight_spirit"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl2_shadowbind"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl1_pick_and_pull"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl1_rain_of_blades"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/midnight/lvl1_uncanny_disguise"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

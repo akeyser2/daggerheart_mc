@@ -1,0 +1,116 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Valor Domain Deck",
+                  "color": "#FFA500",
+                  "bold": true,
+                  "italic": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_contents",
+              "component": "minecraft:bundle_contents",
+              "entries": [
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl10_unbreakable"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl10_unyielding_armor"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl9_hold_the_line"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl9_lead_by_example"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl8_full_surge"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl8_ground_pound"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl7_shrug_it_off"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl7_valor_touched"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl6_inevitable"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl6_rise_up"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl5_armorer"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl5_rousing_strike"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl4_goad_them_on"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl4_support_tank"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl3_critical_inspiration"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl3_lean_on_me"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl2_body_basher"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl2_bold_presence"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl1_bare_bones"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl1_forceful_push"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/valor/lvl1_i_am_your_shield"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

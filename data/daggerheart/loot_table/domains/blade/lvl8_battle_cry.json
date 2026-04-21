@@ -1,0 +1,101 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:raiser_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Battle Cry - 8",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Blade Domain",
+                      "color": "red",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 8 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 2",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Once per long rest, while you're charging into danger, you can",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "muster a rousing call that inspires your allies.",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "All allies who can hear you each clear a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": " and gain a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hope",
+                      "color": "gold",
+                      "italic": true
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "Additionally, your allies gain advantage on attack rolls until",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "you or an ally rolls a failure with Fear.",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:rib_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Midnight-Touched - 7",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Midnight Domain",
+                      "color": "dark_gray",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 7 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 2",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "When 4+ cards in your loadout are Midnight, gain:",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "- Once per rest at 0 ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hope",
+                      "color": "gold",
+                      "italic": true
+                    },
+                    {
+                      "text": ", gain ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hope",
+                      "color": "gold",
+                      "italic": true
+                    },
+                    {
+                      "text": " instead of GM gaining Fear.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "- On successful attack, mark ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": " to add Fear Die to damage.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

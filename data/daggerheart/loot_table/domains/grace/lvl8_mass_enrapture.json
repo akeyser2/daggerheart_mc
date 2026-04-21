@@ -1,0 +1,108 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:spire_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Mass Enrapture - 8",
+                  "color": "#FF99CC",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Grace Domain",
+                      "color": "#FF99CC",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 8 Spell",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 3",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Make a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Spellcast Roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " against all targets within Far range.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "Targets succeeded against become Enraptured.",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "Mark a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": " to force all Enraptured targets to mark a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": ",",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "ending this spell.",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

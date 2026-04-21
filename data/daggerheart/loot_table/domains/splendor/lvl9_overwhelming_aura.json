@@ -1,0 +1,103 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:dune_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Overwhelming Aura - 9",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Splendor Domain",
+                      "color": "yellow",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 9 Spell",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 2",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Spellcast Roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " (15); on success spend 2 ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hope",
+                      "color": "gold",
+                      "italic": true
+                    },
+                    {
+                      "text": " to set ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Presence",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " equal to Spellcast trait until long rest.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "While active, adversaries mark a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": " when targeting you with attack.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

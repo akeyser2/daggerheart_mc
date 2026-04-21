@@ -1,0 +1,97 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:silence_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Rapid Riposte - 6",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Bone Domain",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 6 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 0",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "When an attack made against you from within ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Melee",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " range",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "fails, you can mark a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": " and seize the opportunity to deal",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "the weapon damage of one of your active weapons to the",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "attacker.",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:raiser_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Champion's Edge - 5",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Blade Domain",
+                      "color": "red",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 5 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "When you critically succeed on an attack, you can spend up to",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "3 ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hope",
+                      "color": "gold",
+                      "italic": true
+                    },
+                    {
+                      "text": " and choose one option per ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hope",
+                      "color": "gold",
+                      "italic": true
+                    },
+                    {
+                      "text": " spent:",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "- You clear a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hit Point",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "- You clear an ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Armor Slot",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "- The target must mark an additional ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hit Point",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "You can't choose the same option more than once.",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

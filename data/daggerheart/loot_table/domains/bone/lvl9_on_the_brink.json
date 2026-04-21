@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:silence_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "On the Brink - 9",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Bone Domain",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 9 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "When you have 2 or fewer ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hit Points",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " unmarked, you don't take",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Minor",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " damage.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

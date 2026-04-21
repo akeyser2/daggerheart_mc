@@ -1,0 +1,81 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:spire_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Encore - 10",
+                  "color": "#FF99CC",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Grace Domain",
+                      "color": "#FF99CC",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 10 Spell",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "When an ally within Close range deals damage, you can make a",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "Spellcast Roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " against that same target.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "On success, you deal the same damage. On success with Fear,",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "place this card in your vault.",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

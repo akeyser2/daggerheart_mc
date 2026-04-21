@@ -1,0 +1,132 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:silence_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Redirect - 4",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Bone Domain",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 4 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "When an attack made against you from beyond ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Melee",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " range",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "fails, roll a number of ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "d6s",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " equal to your ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Proficiency",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ". If any roll",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "a 6, you can mark a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": " to redirect the attack to damage an",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "adversary within ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Very Close",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " range instead.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

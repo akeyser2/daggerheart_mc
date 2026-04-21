@@ -1,0 +1,98 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:raiser_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Battle Monster - 10",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Blade Domain",
+                      "color": "red",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 10 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 0",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "When you make a successful attack against an adversary, you",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "can mark 4 ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": " to force the target to mark a number of Hit",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Points equal to the number of ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hit Points",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " you currently have",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "marked instead of rolling for damage.",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

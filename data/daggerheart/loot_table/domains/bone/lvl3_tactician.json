@@ -1,0 +1,125 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:silence_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Tactician - 3",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Bone Domain",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 3 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "When you Help an Ally, they can spend a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hope",
+                      "color": "gold",
+                      "italic": true
+                    },
+                    {
+                      "text": " to add one of",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "your ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Experiences",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " to their roll alongside your advantage die.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "When making a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Tag Team Roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ", you can roll a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "d20",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " as your ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hope",
+                      "color": "gold",
+                      "italic": true
+                    }
+                  ],
+                  {
+                    "text": "Die.",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

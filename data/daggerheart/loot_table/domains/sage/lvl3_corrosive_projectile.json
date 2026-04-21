@@ -1,0 +1,144 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:wild_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Corrosive Projectile - 3",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Sage Domain",
+                      "color": "green",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 3 Spell",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Spellcast Roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " vs target within ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Far range",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": "; on success deal ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "d6+4",
+                      "color": "white",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": " magic damage using ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Proficiency",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Mark 2 or more ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": " to apply permanent ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Corroded",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": "; target gets \u22121 ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Difficulty",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " per 2 ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": " spent.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

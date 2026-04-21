@@ -1,0 +1,108 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:bolt_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Valor-Touched - 7",
+                  "color": "#FFA500",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Valor Domain",
+                      "color": "#FFA500",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 7 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "When 4+ loadout cards are Valor: gain +1 ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Armor Score",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "When you mark 1+ ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hit Points",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " without marking ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Armor Slot",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ", clear an ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Armor Slot",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

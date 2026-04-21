@@ -1,0 +1,124 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:dune_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Bolt Beacon - 1",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Splendor Domain",
+                      "color": "yellow",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 1 Spell",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Spellcast Roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " vs target in ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Far range",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": "; spend a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hope",
+                      "color": "gold",
+                      "italic": true
+                    },
+                    {
+                      "text": " to deal ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "d8+2",
+                      "color": "white",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": " magic damage using ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Proficiency",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Target becomes temporarily ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Vulnerable",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " and glows until cleared.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

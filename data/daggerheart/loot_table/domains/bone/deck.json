@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {"text":"Bone Domain Deck","color":"white","bold":true,"italic":false}
+              }
+            },
+            {
+              "function": "minecraft:set_contents",
+              "component": "minecraft:bundle_contents",
+              "entries": [
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl10_deathrun" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl10_swift_step" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl9_on_the_brink" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl9_splintering_strike" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl8_breaking_blow" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl8_wrangle" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl7_bone_touched" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl7_cruel_precision" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl6_rapid_riposte" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl6_recovery" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl5_know_thy_enemy" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl5_signature_move" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl4_boost" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl4_redirect" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl3_brace" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl3_tactician" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl2_ferocity" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl2_strategic_approach" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl1_deft_maneuvers" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl1_i_see_it_coming" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/bone/lvl1_untouchable" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

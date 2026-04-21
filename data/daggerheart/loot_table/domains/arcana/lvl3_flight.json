@@ -1,0 +1,111 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:flow_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Flight - 3",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Arcana Domain",
+                      "color": "light_purple",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 3 Spell",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Make a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Spellcast Roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " (15). On a success, place a number",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "of tokens equal to your ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Agility",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " on this card (minimum 1).",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "When you make an action roll while flying, spend a",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "token from this card. After the action that spends the",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "last token is resolved, you descend to the ground",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "directly below you.",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

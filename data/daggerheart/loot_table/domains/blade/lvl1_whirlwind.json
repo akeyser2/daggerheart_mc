@@ -1,0 +1,108 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:raiser_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Whirlwind - 1",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Blade Domain",
+                      "color": "red",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 1 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 0",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "When you make a successful attack against a target within",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "Very Close",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " range, you can spend a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hope",
+                      "color": "gold",
+                      "italic": true
+                    },
+                    {
+                      "text": " to use the attack",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "against all other targets within ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Very Close",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " range.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "All additional adversaries you succeed against with this",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "ability take half damage.",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

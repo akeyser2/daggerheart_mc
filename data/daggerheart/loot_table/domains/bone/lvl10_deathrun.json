@@ -1,0 +1,139 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:silence_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Deathrun - 10",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Bone Domain",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 10 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Spend 3 ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hope",
+                      "color": "gold",
+                      "italic": true
+                    },
+                    {
+                      "text": " to run a straight path through the battlefield to",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "a point within ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Far",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " range, making an attack against all",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "adversaries within your weapon's range along that path.",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "Choose the order in which you deal damage to the targets you",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "succeeded against. For the first, roll your weapon damage with",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "a +1 bonus to your ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Proficiency",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ". Then remove a die from your",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "damage roll and deal the remaining damage to the next target.",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "Continue to remove a die for each subsequent target until you",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "have no more damage dice or adversaries.",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "You can't target the same adversary more than once per attack.",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

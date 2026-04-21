@@ -1,0 +1,113 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:rib_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Specter of the Dark - 10",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Midnight Domain",
+                      "color": "dark_gray",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 10 Spell",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Mark a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": " to become ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Spectral",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " until you make an ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "action roll",
+                      "color": "white",
+                      "italic": true
+                    }
+                  ],
+                  {
+                    "text": "targeting another creature.",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "While ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Spectral",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ", you're immune to physical damage and can",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "float and pass through solid objects.",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

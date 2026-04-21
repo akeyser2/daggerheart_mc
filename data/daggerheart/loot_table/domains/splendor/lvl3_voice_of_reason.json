@@ -1,0 +1,108 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:dune_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Voice of Reason - 3",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Splendor Domain",
+                      "color": "yellow",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 3 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Gain ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "advantage",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " on ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "action rolls",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " to de-escalate violence or lead others.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "When all ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": " slots are marked, gain +1 ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Proficiency",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " for damage rolls.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

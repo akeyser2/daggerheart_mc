@@ -1,0 +1,175 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:silence_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Know Thy Enemy - 5",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Bone Domain",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 5 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "When observing a creature, you can make an ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Instinct Roll",
+                      "color": "white",
+                      "italic": true
+                    }
+                  ],
+                  [
+                    {
+                      "text": "against them. On a success, spend a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hope",
+                      "color": "gold",
+                      "italic": true
+                    },
+                    {
+                      "text": " and ask the GM for",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "one set of information:",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "- Their unmarked ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hit Points",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " and ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "- Their ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Difficulty",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " and damage thresholds.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "- Their tactics and standard attack damage dice.",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "- Their features and ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Experiences",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Additionally on a success, you can mark a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": " to remove a",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "Fear from the GM's Fear Pool.",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

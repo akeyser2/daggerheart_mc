@@ -1,0 +1,116 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Splendor Domain Deck",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_contents",
+              "component": "minecraft:bundle_contents",
+              "entries": [
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl10_invigoration"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl10_resurrection"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl9_overwhelming_aura"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl9_salvation_beam"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl8_shield_aura"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl8_stunning_sunlight"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl7_healing_strike"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl7_splendor_touched"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl6_restoration"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl6_zone_of_protection"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl5_shape_material"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl5_smite"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl4_divination"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl4_life_ward"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl3_second_wind"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl3_voice_of_reason"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl2_final_words"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl2_healing_hands"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl1_bolt_beacon"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl1_mending_touch"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/splendor/lvl1_reassurance"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

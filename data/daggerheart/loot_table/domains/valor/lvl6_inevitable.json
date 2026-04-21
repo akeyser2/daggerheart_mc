@@ -1,0 +1,91 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:bolt_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Inevitable - 6",
+                  "color": "#FFA500",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Valor Domain",
+                      "color": "#FFA500",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 6 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "When you fail an ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "action roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ", your next ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "action roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " has ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "advantage",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

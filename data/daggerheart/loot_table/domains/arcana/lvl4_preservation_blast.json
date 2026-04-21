@@ -1,0 +1,133 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:flow_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Preservation Blast - 4",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Arcana Domain",
+                      "color": "light_purple",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 4 Spell",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 2",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Make a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Spellcast Roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " against all targets within",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Melee",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " range. Targets you succeed against are forced",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "back to ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Far",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " range and take ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "d8",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": "+3",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": " magic damage",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "using your ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Spellcast",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " trait.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

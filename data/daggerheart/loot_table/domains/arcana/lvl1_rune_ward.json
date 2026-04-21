@@ -1,0 +1,153 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:flow_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Rune Ward - 1",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Arcana Domain",
+                      "color": "light_purple",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 1 Spell",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 0",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "You have a deeply personal trinket that",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "can be infused with protective magic and",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "held as a ward by you or an ally.",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "The ward holder can spend a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hope",
+                      "color": "gold",
+                      "italic": true
+                    },
+                    {
+                      "text": " to",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "reduce incoming damage by ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "1d8",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "If the ",
+                      "color": "gray",
+                      "italic": false
+                    },
+                    {
+                      "text": "Ward Die",
+                      "color": "gray",
+                      "italic": true
+                    },
+                    {
+                      "text": " result is ",
+                      "color": "gray",
+                      "italic": false
+                    },
+                    {
+                      "text": "8",
+                      "color": "gray",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": ", the ward power",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "ends after it reduces damage this turn.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "It can be recharged for free on your",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "next rest.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

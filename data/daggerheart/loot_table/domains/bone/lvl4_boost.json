@@ -1,0 +1,130 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:silence_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Boost - 4",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Bone Domain",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 4 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Mark a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": " to boost off a willing ally within ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Close",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " range,",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "fling yourself into the air, and perform an aerial attack against",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "a target within ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Far",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " range. You have advantage on the attack,",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "add a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "d10",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " to the damage roll, and end your move within ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Melee",
+                      "color": "white",
+                      "italic": true
+                    }
+                  ],
+                  {
+                    "text": "range of the target.",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

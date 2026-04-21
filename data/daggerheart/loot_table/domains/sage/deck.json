@@ -1,0 +1,116 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Sage Domain Deck",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_contents",
+              "component": "minecraft:bundle_contents",
+              "entries": [
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl10_force_of_nature"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl10_tempest"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl9_fane_of_the_wilds"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl9_plant_dominion"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl8_forest_sprites"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl8_rejuvenation_barrier"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl7_sage_touched"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl7_wild_surge"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl6_conjured_steeds"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl6_forager"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl5_thorn_skin"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl5_wild_fortress"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl4_death_grip"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl4_healing_field"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl3_corrosive_projectile"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl3_towering_stalk"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl2_conjure_swarm"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl2_natural_familiar"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl1_gifted_tracker"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl1_natures_tongue"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "daggerheart:domains/sage/lvl1_vicious_entangle"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

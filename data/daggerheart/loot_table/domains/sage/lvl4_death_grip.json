@@ -1,0 +1,131 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:wild_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Death Grip - 4",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Sage Domain",
+                      "color": "green",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 4 Spell",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Spellcast Roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " vs target in ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Close range",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " and choose: pull target/you, force 2 ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": ", or line effect.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Line effect: enemies between you and target make ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Reaction Roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " (13) or take ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "3d6+2",
+                      "color": "white",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": " physical damage.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "On success, target is temporarily ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Restrained",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

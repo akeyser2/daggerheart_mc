@@ -1,0 +1,165 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:wild_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Tempest - 10",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Sage Domain",
+                      "color": "green",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 10 Spell",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 2",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Choose Blizzard, Hurricane, or Sandstorm; make ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Spellcast Roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " vs targets in ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Far range",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Blizzard: ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "2d20+8",
+                      "color": "white",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": " magic, targets temporarily ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Vulnerable",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Hurricane: ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "3d10+10",
+                      "color": "white",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": " magic and movement impeded against wind.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Sandstorm: ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "5d6+9",
+                      "color": "white",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": " magic; attacks beyond ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Melee range",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " have ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "disadvantage",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

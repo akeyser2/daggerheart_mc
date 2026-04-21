@@ -1,0 +1,147 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:silence_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Strategic Approach - 2",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Bone Domain",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 2 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "After a long rest, place a number of tokens equal to your",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "Knowledge",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " on this card (minimum 1). The first time you move",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "within ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Close",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " range of an adversary and make an attack against",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "them, you can spend one token to choose one option:",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "- You make the attack with advantage.",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "- You clear a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": " on an ally within ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Melee",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " range.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "- You add a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "d8",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " to your damage roll.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "When you take a long rest, clear all unspent tokens.",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

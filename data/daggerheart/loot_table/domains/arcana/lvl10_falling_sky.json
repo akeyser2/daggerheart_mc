@@ -1,0 +1,136 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:flow_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Falling Sky - 10",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Arcana Domain",
+                      "color": "light_purple",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 10 Spell",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Make a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Spellcast Roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " against all adversaries within",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Far",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " range.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Mark any number of ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": " to make shards of arcana",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "rain down from above. Targets you succeed against take",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "1d20",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": "+2",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": " magic damage for each ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": " marked.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

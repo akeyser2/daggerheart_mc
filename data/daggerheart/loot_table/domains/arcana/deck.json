@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:purple_bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {"text":"Arcana Domain Deck","color":"light_purple","bold":true,"italic":false}
+              }
+            },
+            {
+              "function": "minecraft:set_contents",
+              "component": "minecraft:bundle_contents",
+              "entries": [
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl10_adjust_reality" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl10_falling_sky" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl9_earthquake" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl9_sensory_projection" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl8_arcane_reflection" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl8_confusing_aura" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl7_arcana_touched" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl7_cloaking_blast" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl6_rift_walker" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl6_telekinesis" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl5_chain_lightning" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl5_premonition" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl4_blink_out" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl4_preservation_blast" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl3_counterspell" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl3_flight" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl2_cinder_grasp" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl2_floating_eye" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl1_rune_ward" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl1_unleash_chaos" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/arcana/lvl1_wall_walk" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:silence_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Wrangle - 8",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Bone Domain",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 8 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 1",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Make an ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Agility",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " Roll against all targets within ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Close",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " range.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Spend a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hope",
+                      "color": "gold",
+                      "italic": true
+                    },
+                    {
+                      "text": " to move targets you succeed against, and any",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "willing allies within ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Close",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " range, to another point within ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Close",
+                      "color": "white",
+                      "italic": true
+                    }
+                  ],
+                  {
+                    "text": "range.",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

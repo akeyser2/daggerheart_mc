@@ -1,0 +1,135 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:raiser_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Onslaught - 10",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Blade Domain",
+                      "color": "red",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 10 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 3",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "When you successfully make an attack with your weapon, you",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "never deal damage beneath a target's Major damage threshold",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "(the target always marks a minimum of 2 ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hit Points",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ").",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "Additionally, when a creature within your weapon's range deals",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "damage to an ally with an attack that doesn't include you, you",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "can mark a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Stress",
+                      "color": "dark_purple",
+                      "italic": true
+                    },
+                    {
+                      "text": " to force them to make a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Reaction Roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " (15).",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "On a failure, the target must mark a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hit Point",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

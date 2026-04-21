@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pink_bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {"text":"Grace Domain Deck","color":"#FF99CC","bold":true,"italic":false}
+              }
+            },
+            {
+              "function": "minecraft:set_contents",
+              "component": "minecraft:bundle_contents",
+              "entries": [
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl10_encore"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl10_notorious"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl9_copycat"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl9_master_of_the_craft"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl8_astral_projection"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl8_mass_enrapture"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl7_endless_charisma"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl7_grace_touched"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl6_never_upstaged"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl6_share_the_burden"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl5_thought_delver"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl5_words_of_discord"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl4_soothing_speech"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl4_through_your_eyes"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl3_hypnotic_shimmer"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl3_invisibility"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl2_tell_no_lies"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl2_troublemaker"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl1_deft_deceiver"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl1_enrapture"},
+                {"type":"minecraft:loot_table","value":"daggerheart:domains/grace/lvl1_inspirational_words"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

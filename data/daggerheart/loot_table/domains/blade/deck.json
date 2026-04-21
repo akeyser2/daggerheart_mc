@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {"text":"Blade Domain Deck","color":"red","bold":true,"italic":false}
+              }
+            },
+            {
+              "function": "minecraft:set_contents",
+              "component": "minecraft:bundle_contents",
+              "entries": [
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl10_battle_monster" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl10_onslaught" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl9_gore_and_glory" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl9_reapers_strike" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl8_battle_cry" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl8_frenzy" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl7_blade_touched" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl7_glancing_blow" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl6_battle_hardened" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl6_rage_up" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl5_champions_edge" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl5_vitality" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl4_deadly_focus" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl4_fortified_armor" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl3_scramble" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl3_versatile_fighter" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl2_a_soldiers_bond" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl2_reckless" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl1_get_back_up" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl1_not_good_enough" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/blade/lvl1_whirlwind" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:rib_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Night Terror - 9",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Midnight Domain",
+                      "color": "dark_gray",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 9 Spell",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 2",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Once per long rest, choose targets within Very Close range.",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "On failed ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Reaction Roll",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " (16), they are ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Horrified",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": " and ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Vulnerable",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ".",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Steal Fear, roll ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "d6s",
+                      "color": "white",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": " equal to stolen Fear, deal to each target.",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

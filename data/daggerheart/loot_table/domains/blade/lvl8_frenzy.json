@@ -1,0 +1,98 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:raiser_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Frenzy - 8",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Blade Domain",
+                      "color": "red",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 8 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 3",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Once per long rest, you can go into a Frenzy until there are no",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "more adversaries within sight.",
+                    "color": "white",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "While Frenzied, you can't use ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Armor Slots",
+                      "color": "white",
+                      "italic": true
+                    },
+                    {
+                      "text": ", and you gain a +10",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "bonus to your damage rolls and a +8 bonus to your ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Severe",
+                      "color": "white",
+                      "italic": true
+                    }
+                  ],
+                  {
+                    "text": "damage threshold.",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

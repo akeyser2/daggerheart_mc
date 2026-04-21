@@ -1,0 +1,100 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:silence_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Splintering Strike - 9",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Bone Domain",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": " | ",
+                      "color": "dark_gray",
+                      "bold": false
+                    },
+                    {
+                      "text": "Level 9 Ability",
+                      "color": "gray"
+                    }
+                  ],
+                  {
+                    "text": "Recall Cost: 3",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  [
+                    {
+                      "text": "Spend a ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "Hope",
+                      "color": "gold",
+                      "italic": true
+                    },
+                    {
+                      "text": " and make an attack against all adversaries within",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "your weapon's range. Once per long rest, on a success against",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "any targets, add up the damage dealt, then redistribute that",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "damage however you wish between the targets you succeeded",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "against. When you deal damage to a target, roll an additional",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "damage die and add its result to the damage you deal to that",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "target.",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
