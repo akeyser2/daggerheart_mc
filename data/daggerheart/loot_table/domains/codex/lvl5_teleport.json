@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ward_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Teleport - 5",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    { "text": "Codex Domain", "color": "blue", "italic": false, "bold": true },
+                    { "text": " | ", "color": "dark_gray", "bold": false },
+                    { "text": "Level 5 Spell", "color": "gray" }
+                  ],
+                  { "text": "Recall Cost: 2", "color": "dark_gray", "italic": false },
+                  { "text": "" },
+                  { "text": "Once per long rest, you can instantly", "color": "white", "italic": false },
+                  { "text": "teleport yourself and any number of", "color": "white", "italic": false },
+                  { "text": "willing targets within Close range", "color": "white", "italic": false },
+                  { "text": "to a place you've been before.", "color": "white", "italic": false },
+                  { "text": "" },
+                  { "text": "Choose an option, make Spellcast (16):", "color": "white", "italic": false },
+                  { "text": "• Know it very well: +3 bonus", "color": "white", "italic": false },
+                  { "text": "• Visited frequently: +1 bonus", "color": "white", "italic": false },
+                  { "text": "• Visited infrequently: no modifier", "color": "white", "italic": false },
+                  { "text": "• Been there once: -2 penalty", "color": "white", "italic": false },
+                  { "text": "" },
+                  { "text": "On a success, you appear where you", "color": "white", "italic": false },
+                  { "text": "intended. On a fail, you are off", "color": "white", "italic": false },
+                  { "text": "course, determined by fail margin.", "color": "white", "italic": false }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

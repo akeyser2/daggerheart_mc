@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ward_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Sigil of Retribution - 6",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    { "text": "Codex Domain", "color": "blue", "italic": false, "bold": true },
+                    { "text": " | ", "color": "dark_gray", "bold": false },
+                    { "text": "Level 6 Spell", "color": "gray" }
+                  ],
+                  { "text": "Recall Cost: 2", "color": "dark_gray", "italic": false },
+                  { "text": "" },
+                  { "text": "Mark an adversary in Close range with", "color": "white", "italic": false },
+                  { "text": "a sigil. The GM gains a Fear.", "color": "white", "italic": false },
+                  { "text": "When they deal damage to you or allies,", "color": "white", "italic": false },
+                  { "text": "place a d8 on this card (max = level).", "color": "white", "italic": false },
+                  { "text": "" },
+                  { "text": "When you hit the marked adversary,", "color": "white", "italic": false },
+                  { "text": "roll the dice on this card and add", "color": "white", "italic": false },
+                  { "text": "total to damage roll, then clear dice.", "color": "white", "italic": false },
+                  { "text": "" },
+                  { "text": "Ends when adversary is defeated or", "color": "white", "italic": false },
+                  { "text": "you cast Sigil of Retribution again.", "color": "white", "italic": false }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

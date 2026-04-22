@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ward_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Book of Exota - 4",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    { "text": "Codex Domain", "color": "blue", "italic": false, "bold": true },
+                    { "text": " | ", "color": "dark_gray", "bold": false },
+                    { "text": "Level 4 Grimoire", "color": "gray" }
+                  ],
+                  { "text": "Recall Cost: 3", "color": "dark_gray", "italic": false },
+                  { "text": "" },
+                  { "text": "Contains the following spells:", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Repudiate: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "You can interrupt a", "color": "white", "italic": false }
+                  ],
+                  { "text": "magical effect taking place. Make a", "color": "white", "italic": false },
+                  { "text": "reaction roll using your Spellcast", "color": "white", "italic": false },
+                  { "text": "trait. Once per rest on a success,", "color": "white", "italic": false },
+                  { "text": "the effect stops and is avoided.", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Create Construct: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Spend a ", "color": "white", "italic": false },
+                    { "text": "Hope", "color": "gold", "italic": true },
+                    { "text": " to", "color": "white", "italic": false }
+                  ],
+                  { "text": "create an animated construct from", "color": "white", "italic": false },
+                  { "text": "objects around you. Make a Spellcast", "color": "white", "italic": false },
+                  { "text": "Roll to command them. They share", "color": "white", "italic": false },
+                  { "text": "your Evasion & traits.", "color": "white", "italic": false },
+                  [
+                    { "text": "Attacks deal ", "color": "white", "italic": false },
+                    { "text": "2d10+3", "color": "white", "bold": true, "italic": false },
+                    { "text": " physical dmg.", "color": "white", "italic": false }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ward_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Book of Sitil - 2",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    { "text": "Codex Domain", "color": "blue", "italic": false, "bold": true },
+                    { "text": " | ", "color": "dark_gray", "bold": false },
+                    { "text": "Level 2 Grimoire", "color": "gray" }
+                  ],
+                  { "text": "Recall Cost: 2", "color": "dark_gray", "italic": false },
+                  { "text": "" },
+                  { "text": "Contains the following spells:", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Adjust Appearance: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "You magically", "color": "white", "italic": false }
+                  ],
+                  { "text": "shift your appearance and clothing to", "color": "white", "italic": false },
+                  { "text": "avoid recognition.", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Parallela: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Spend 2 ", "color": "white", "italic": false },
+                    { "text": "Hope", "color": "gold", "italic": true },
+                    { "text": " to cast", "color": "white", "italic": false }
+                  ],
+                  { "text": "this spell on yourself or an ally", "color": "white", "italic": false },
+                  { "text": "within Close range. The next time the", "color": "white", "italic": false },
+                  { "text": "target attacks, they can hit an extra", "color": "white", "italic": false },
+                  { "text": "target in range they'd succeed against.", "color": "white", "italic": false },
+                  { "text": "Can only be held on one creature.", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Illusion: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Make a Spellcast Roll (14).", "color": "white", "italic": false }
+                  ],
+                  { "text": "On a success, create a temporary visual", "color": "white", "italic": false },
+                  { "text": "illusion no larger than you in Close", "color": "white", "italic": false },
+                  { "text": "range that lasts while you look at it.", "color": "white", "italic": false },
+                  { "text": "Holds up until observer is in Melee.", "color": "white", "italic": false }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

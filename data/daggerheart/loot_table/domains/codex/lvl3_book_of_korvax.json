@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ward_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Book of Korvax - 3",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    { "text": "Codex Domain", "color": "blue", "italic": false, "bold": true },
+                    { "text": " | ", "color": "dark_gray", "bold": false },
+                    { "text": "Level 3 Grimoire", "color": "gray" }
+                  ],
+                  { "text": "Recall Cost: 2", "color": "dark_gray", "italic": false },
+                  { "text": "" },
+                  { "text": "Contains the following spells:", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Levitation: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Make a Spellcast Roll", "color": "white", "italic": false }
+                  ],
+                  { "text": "to temporarily lift a target you", "color": "white", "italic": false },
+                  { "text": "can see up into the air and move", "color": "white", "italic": false },
+                  { "text": "them within Close range.", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Recant: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Spend a ", "color": "white", "italic": false },
+                    { "text": "Hope", "color": "gold", "italic": true },
+                    { "text": " to force a", "color": "white", "italic": false }
+                  ],
+                  { "text": "target in Melee range to make a", "color": "white", "italic": false },
+                  { "text": "Reaction Roll (15). On a fail, they", "color": "white", "italic": false },
+                  { "text": "forget the last minute of your talk.", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Rune Circle: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Mark a ", "color": "white", "italic": false },
+                    { "text": "Stress", "color": "dark_purple", "italic": true },
+                    { "text": " to", "color": "white", "italic": false }
+                  ],
+                  { "text": "create a temporary magical circle on", "color": "white", "italic": false },
+                  [
+                    { "text": "the ground. Adversaries in Melee take", "color": "white", "italic": false }
+                  ],
+                  [
+                    { "text": "2d12+4", "color": "white", "bold": true, "italic": false },
+                    { "text": " magic dmg & are knocked back.", "color": "white", "italic": false }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

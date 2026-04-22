@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ward_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Banish - 6",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    { "text": "Codex Domain", "color": "blue", "italic": false, "bold": true },
+                    { "text": " | ", "color": "dark_gray", "bold": false },
+                    { "text": "Level 6 Spell", "color": "gray" }
+                  ],
+                  { "text": "Recall Cost: 0", "color": "dark_gray", "italic": false },
+                  { "text": "" },
+                  { "text": "Make a Spellcast Roll against a target", "color": "white", "italic": false },
+                  { "text": "within Close range. On a success,", "color": "white", "italic": false },
+                  { "text": "roll d20s equal to Spellcast trait.", "color": "white", "italic": false },
+                  { "text": "" },
+                  { "text": "Target makes reaction roll vs highest.", "color": "white", "italic": false },
+                  [
+                    { "text": "Success: Target marks ", "color": "white", "italic": false },
+                    { "text": "Stress", "color": "dark_purple", "italic": true },
+                    { "text": ".", "color": "white", "italic": false }
+                  ],
+                  { "text": "Fail (once per rest): Banished.", "color": "white", "italic": false },
+                  { "text": "" },
+                  { "text": "When PCs roll with Fear, Difficulty", "color": "white", "italic": false },
+                  { "text": "gets -1 and target re-rolls. On", "color": "white", "italic": false },
+                  { "text": "success, they return from banishment.", "color": "white", "italic": false }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

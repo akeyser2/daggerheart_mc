@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ward_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Disintegration Wave - 9",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    { "text": "Codex Domain", "color": "blue", "italic": false, "bold": true },
+                    { "text": " | ", "color": "dark_gray", "bold": false },
+                    { "text": "Level 9 Spell", "color": "gray" }
+                  ],
+                  { "text": "Recall Cost: 4", "color": "dark_gray", "italic": false },
+                  { "text": "" },
+                  { "text": "Make a Spellcast Roll (18). Once per", "color": "white", "italic": false },
+                  { "text": "long rest on a success, the GM tells", "color": "white", "italic": false },
+                  { "text": "you which adversaries in Far range", "color": "white", "italic": false },
+                  { "text": "have a Difficulty of 18 or lower.", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Mark a ", "color": "white", "italic": false },
+                    { "text": "Stress", "color": "dark_purple", "italic": true },
+                    { "text": " for each one you wish", "color": "white", "italic": false }
+                  ],
+                  { "text": "to hit with this spell. They are", "color": "white", "italic": false },
+                  { "text": "killed and can't come back to life", "color": "white", "italic": false },
+                  { "text": "by any means.", "color": "white", "italic": false }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

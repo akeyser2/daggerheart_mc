@@ -12,11 +12,11 @@ scoreboard players reset @a dh_click
 execute as @e[type=armor_stand,tag=dh_aura] at @s run function daggerheart:ring
 
 # 5. Handle In-World Proximity Text (Matches IDs and hovers at 0.7 height)
-execute as @e[type=armor_stand,tag=dh_aura] at @s facing entity @p[distance=..150,limit=1,sort=nearest] feet as @e[type=text_display,tag=dh_melee,distance=..150] if score @s dh_id = @e[type=armor_stand,tag=dh_aura,distance=..150,limit=1,sort=nearest] dh_id run tp @s ^ ^0.7 ^1.5
-execute as @e[type=armor_stand,tag=dh_aura] at @s facing entity @p[distance=..150,limit=1,sort=nearest] feet as @e[type=text_display,tag=dh_vclose,distance=..150] if score @s dh_id = @e[type=armor_stand,tag=dh_aura,distance=..150,limit=1,sort=nearest] dh_id run tp @s ^ ^0.7 ^3
-execute as @e[type=armor_stand,tag=dh_aura] at @s facing entity @p[distance=..150,limit=1,sort=nearest] feet as @e[type=text_display,tag=dh_close,distance=..150] if score @s dh_id = @e[type=armor_stand,tag=dh_aura,distance=..150,limit=1,sort=nearest] dh_id run tp @s ^ ^0.7 ^9
-execute as @e[type=armor_stand,tag=dh_aura] at @s facing entity @p[distance=..150,limit=1,sort=nearest] feet as @e[type=text_display,tag=dh_far,distance=..150] if score @s dh_id = @e[type=armor_stand,tag=dh_aura,distance=..150,limit=1,sort=nearest] dh_id run tp @s ^ ^0.7 ^30
-execute as @e[type=armor_stand,tag=dh_aura] at @s facing entity @p[distance=..150,limit=1,sort=nearest] feet as @e[type=text_display,tag=dh_vfar,distance=..150] if score @s dh_id = @e[type=armor_stand,tag=dh_aura,distance=..150,limit=1,sort=nearest] dh_id run tp @s ^ ^0.7 ^90
+execute as @e[type=armor_stand,tag=dh_aura] at @s facing entity @p[distance=..150,limit=1,sort=nearest] feet as @e[type=text_display,tag=dh_melee,distance=..150] if score @s dh_id = @e[type=armor_stand,tag=dh_aura,distance=..150,limit=1,sort=nearest] dh_id run tp @s ^ ^0.7 ^2
+execute as @e[type=armor_stand,tag=dh_aura] at @s facing entity @p[distance=..150,limit=1,sort=nearest] feet as @e[type=text_display,tag=dh_vclose,distance=..150] if score @s dh_id = @e[type=armor_stand,tag=dh_aura,distance=..150,limit=1,sort=nearest] dh_id run tp @s ^ ^0.7 ^4
+execute as @e[type=armor_stand,tag=dh_aura] at @s facing entity @p[distance=..150,limit=1,sort=nearest] feet as @e[type=text_display,tag=dh_close,distance=..150] if score @s dh_id = @e[type=armor_stand,tag=dh_aura,distance=..150,limit=1,sort=nearest] dh_id run tp @s ^ ^0.7 ^8
+execute as @e[type=armor_stand,tag=dh_aura] at @s facing entity @p[distance=..150,limit=1,sort=nearest] feet as @e[type=text_display,tag=dh_far,distance=..150] if score @s dh_id = @e[type=armor_stand,tag=dh_aura,distance=..150,limit=1,sort=nearest] dh_id run tp @s ^ ^0.7 ^16
+execute as @e[type=armor_stand,tag=dh_aura] at @s facing entity @p[distance=..150,limit=1,sort=nearest] feet as @e[type=text_display,tag=dh_vfar,distance=..150] if score @s dh_id = @e[type=armor_stand,tag=dh_aura,distance=..150,limit=1,sort=nearest] dh_id run tp @s ^ ^0.7 ^32
 
 # 6. Auto-Cleanup
 execute as @e[type=text_display,tag=dh_text] at @s unless entity @e[type=armor_stand,tag=dh_aura,distance=..100] run kill @s

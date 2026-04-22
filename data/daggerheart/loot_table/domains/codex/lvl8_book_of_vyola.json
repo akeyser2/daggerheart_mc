@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ward_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Book of Vyola - 8",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    { "text": "Codex Domain", "color": "blue", "italic": false, "bold": true },
+                    { "text": " | ", "color": "dark_gray", "bold": false },
+                    { "text": "Level 8 Grimoire", "color": "gray" }
+                  ],
+                  { "text": "Recall Cost: 2", "color": "dark_gray", "italic": false },
+                  { "text": "" },
+                  { "text": "Contains the following spells:", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Memory Delve: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Make a Spellcast Roll", "color": "white", "italic": false }
+                  ],
+                  { "text": "against a target within Far range.", "color": "white", "italic": false },
+                  { "text": "On a success, peer into their mind", "color": "white", "italic": false },
+                  { "text": "and ask the GM a question. The GM", "color": "white", "italic": false },
+                  { "text": "describes pertaining memories.", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Shared Clarity: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Once per long rest,", "color": "white", "italic": false }
+                  ],
+                  [
+                    { "text": "spend a ", "color": "white", "italic": false },
+                    { "text": "Hope", "color": "gold", "italic": true },
+                    { "text": " to choose two willing", "color": "white", "italic": false }
+                  ],
+                  [
+                    { "text": "creatures. When one would mark ", "color": "white", "italic": false },
+                    { "text": "Stress", "color": "dark_purple", "italic": true }
+                  ],
+                  { "text": "they can choose who marks it.", "color": "white", "italic": false },
+                  { "text": "Lasts until their next rest.", "color": "white", "italic": false }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

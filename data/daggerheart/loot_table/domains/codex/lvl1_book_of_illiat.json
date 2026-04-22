@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ward_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Book of Illiat - 1",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    { "text": "Codex Domain", "color": "blue", "italic": false, "bold": true },
+                    { "text": " | ", "color": "dark_gray", "bold": false },
+                    { "text": "Level 1 Grimoire", "color": "gray" }
+                  ],
+                  { "text": "Recall Cost: 2", "color": "dark_gray", "italic": false },
+                  { "text": "" },
+                  { "text": "Contains the following spells:", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Slumber: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Make a Spellcast Roll", "color": "white", "italic": false }
+                  ],
+                  { "text": "against a target within Close range.", "color": "white", "italic": false },
+                  { "text": "On a success, they fall asleep until", "color": "white", "italic": false },
+                  { "text": "they take damage or are disturbed.", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Arcane Barrage: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Make a Spellcast Roll", "color": "white", "italic": false }
+                  ],
+                  [
+                    { "text": "against a target in Far range. Deal ", "color": "white", "italic": false },
+                    { "text": "1d6", "color": "white", "bold": true, "italic": false },
+                    { "text": " magic", "color": "white", "italic": false }
+                  ],
+                  [
+                    { "text": "dmg. You can mark a ", "color": "white", "italic": false },
+                    { "text": "Stress", "color": "dark_purple", "italic": true },
+                    { "text": " to hit", "color": "white", "italic": false }
+                  ],
+                  { "text": "an additional target within range.", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Telepathy: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "You can communicate", "color": "white", "italic": false }
+                  ],
+                  { "text": "telepathically with willing creatures", "color": "white", "italic": false },
+                  { "text": "within Far range.", "color": "white", "italic": false }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

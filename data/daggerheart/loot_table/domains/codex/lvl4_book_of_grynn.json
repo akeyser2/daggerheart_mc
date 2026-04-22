@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ward_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Book of Grynn - 4",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    { "text": "Codex Domain", "color": "blue", "italic": false, "bold": true },
+                    { "text": " | ", "color": "dark_gray", "bold": false },
+                    { "text": "Level 4 Grimoire", "color": "gray" }
+                  ],
+                  { "text": "Recall Cost: 2", "color": "dark_gray", "italic": false },
+                  { "text": "" },
+                  { "text": "Contains the following spells:", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Arcane Deflection: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Once per long", "color": "white", "italic": false }
+                  ],
+                  [
+                    { "text": "rest, spend a ", "color": "white", "italic": false },
+                    { "text": "Hope", "color": "gold", "italic": true },
+                    { "text": " to negate the", "color": "white", "italic": false }
+                  ],
+                  { "text": "damage of an attack targeting you", "color": "white", "italic": false },
+                  { "text": "or an ally within Very Close range.", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Time Lock: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Target an object in Far", "color": "white", "italic": false }
+                  ],
+                  { "text": "range. That object stops in time &", "color": "white", "italic": false },
+                  { "text": "space exactly where it is until", "color": "white", "italic": false },
+                  { "text": "your next rest.", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Wall of Flame: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Make a Spellcast", "color": "white", "italic": false }
+                  ],
+                  { "text": "Roll (15). On a success, create a", "color": "white", "italic": false },
+                  { "text": "wall of magical flame between two", "color": "white", "italic": false },
+                  { "text": "points within Far range. Passers", "color": "white", "italic": false },
+                  [
+                    { "text": "take ", "color": "white", "italic": false },
+                    { "text": "4d10+3", "color": "white", "bold": true, "italic": false },
+                    { "text": " magic damage.", "color": "white", "italic": false }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

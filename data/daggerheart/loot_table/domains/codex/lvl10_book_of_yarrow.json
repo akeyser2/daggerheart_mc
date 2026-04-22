@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ward_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Book of Yarrow - 10",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    { "text": "Codex Domain", "color": "blue", "italic": false, "bold": true },
+                    { "text": " | ", "color": "dark_gray", "bold": false },
+                    { "text": "Level 10 Grimoire", "color": "gray" }
+                  ],
+                  { "text": "Recall Cost: 2", "color": "dark_gray", "italic": false },
+                  { "text": "" },
+                  { "text": "Contains the following spells:", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Timejammer: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Make a Spellcast Roll", "color": "white", "italic": false }
+                  ],
+                  { "text": "(18). On a success, time temporarily", "color": "white", "italic": false },
+                  { "text": "slows to a halt for everyone within", "color": "white", "italic": false },
+                  { "text": "Far range except for you. It resumes", "color": "white", "italic": false },
+                  { "text": "the next time you make an action", "color": "white", "italic": false },
+                  { "text": "roll that targets another creature.", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Magic Immunity: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Spend 5 ", "color": "white", "italic": false },
+                    { "text": "Hope", "color": "gold", "italic": true },
+                    { "text": " to", "color": "white", "italic": false }
+                  ],
+                  { "text": "become immune to magic damage until", "color": "white", "italic": false },
+                  { "text": "your next rest.", "color": "white", "italic": false }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

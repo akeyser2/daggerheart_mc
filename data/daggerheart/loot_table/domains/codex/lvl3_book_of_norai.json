@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ward_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Book of Norai - 3",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    { "text": "Codex Domain", "color": "blue", "italic": false, "bold": true },
+                    { "text": " | ", "color": "dark_gray", "bold": false },
+                    { "text": "Level 3 Grimoire", "color": "gray" }
+                  ],
+                  { "text": "Recall Cost: 2", "color": "dark_gray", "italic": false },
+                  { "text": "" },
+                  { "text": "Contains the following spells:", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Mystic Tether: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Make a Spellcast", "color": "white", "italic": false }
+                  ],
+                  { "text": "Roll against a target in Far range.", "color": "white", "italic": false },
+                  [
+                    { "text": "On a success, they're Restrained and", "color": "white", "italic": false }
+                  ],
+                  [
+                    { "text": "must mark a ", "color": "white", "italic": false },
+                    { "text": "Stress", "color": "dark_purple", "italic": true },
+                    { "text": ". Grounds flyers.", "color": "white", "italic": false }
+                  ],
+                  { "text": "" },
+                  [
+                    { "text": "Fireball: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Make a Spellcast Roll", "color": "white", "italic": false }
+                  ],
+                  { "text": "against a target in Very Far range.", "color": "white", "italic": false },
+                  { "text": "On a success, hurl a fiery sphere.", "color": "white", "italic": false },
+                  { "text": "Target & all within Very Close range", "color": "white", "italic": false },
+                  { "text": "must make a Reaction Roll (13).", "color": "white", "italic": false },
+                  [
+                    { "text": "Fail: ", "color": "white", "italic": false },
+                    { "text": "d20+5", "color": "white", "bold": true, "italic": false },
+                    { "text": " magic dmg (Proficiency).", "color": "white", "italic": false }
+                  ],
+                  { "text": "Success: Half damage.", "color": "white", "italic": false }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

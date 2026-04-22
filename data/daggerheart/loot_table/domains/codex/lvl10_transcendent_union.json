@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ward_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Transcendent Union - 10",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    { "text": "Codex Domain", "color": "blue", "italic": false, "bold": true },
+                    { "text": " | ", "color": "dark_gray", "bold": false },
+                    { "text": "Level 10 Spell", "color": "gray" }
+                  ],
+                  { "text": "Recall Cost: 1", "color": "dark_gray", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Once per long rest, spend 5 ", "color": "white", "italic": false },
+                    { "text": "Hope", "color": "gold", "italic": true }
+                  ],
+                  { "text": "to cast this spell on two or more", "color": "white", "italic": false },
+                  { "text": "willing creatures. Until your next", "color": "white", "italic": false },
+                  [
+                    { "text": "rest, when a creature connected by", "color": "white", "italic": false }
+                  ],
+                  [
+                    { "text": "this union would mark ", "color": "white", "italic": false },
+                    { "text": "Stress", "color": "dark_purple", "italic": true },
+                    { "text": " or", "color": "white", "italic": false }
+                  ],
+                  { "text": "Hit Points, the connected creatures", "color": "white", "italic": false },
+                  { "text": "can choose who marks it.", "color": "white", "italic": false }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

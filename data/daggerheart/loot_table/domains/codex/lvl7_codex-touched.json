@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ward_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Codex-Touched - 7",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    { "text": "Codex Domain", "color": "blue", "italic": false, "bold": true },
+                    { "text": " | ", "color": "dark_gray", "bold": false },
+                    { "text": "Level 7 Ability", "color": "gray" }
+                  ],
+                  { "text": "Recall Cost: 2", "color": "dark_gray", "italic": false },
+                  { "text": "" },
+                  { "text": "When 4 or more of the domain cards", "color": "white", "italic": false },
+                  { "text": "in your loadout are from the Codex", "color": "white", "italic": false },
+                  { "text": "domain, gain the following benefits:", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "• You can mark a ", "color": "white", "italic": false },
+                    { "text": "Stress", "color": "dark_purple", "italic": true },
+                    { "text": " to add your", "color": "white", "italic": false }
+                  ],
+                  { "text": "  Proficiency to a Spellcast Roll.", "color": "white", "italic": false },
+                  { "text": "" },
+                  { "text": "• Once per rest, replace this card with", "color": "white", "italic": false },
+                  { "text": "  any card from your vault without", "color": "white", "italic": false },
+                  { "text": "  paying its Recall Cost.", "color": "white", "italic": false }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ward_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Book of Vagras - 2",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    { "text": "Codex Domain", "color": "blue", "italic": false, "bold": true },
+                    { "text": " | ", "color": "dark_gray", "bold": false },
+                    { "text": "Level 2 Grimoire", "color": "gray" }
+                  ],
+                  { "text": "Recall Cost: 2", "color": "dark_gray", "italic": false },
+                  { "text": "" },
+                  { "text": "Contains the following spells:", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Runic Lock: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Make a Spellcast Roll", "color": "white", "italic": false }
+                  ],
+                  { "text": "(15) on an object you're touching", "color": "white", "italic": false },
+                  { "text": "that can close. Once per rest on a", "color": "white", "italic": false },
+                  { "text": "success, lock it so it can only be", "color": "white", "italic": false },
+                  { "text": "opened by creatures of your choice.", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Arcane Door: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "When you have no", "color": "white", "italic": false }
+                  ],
+                  { "text": "adversaries in Melee range, make a", "color": "white", "italic": false },
+                  [
+                    { "text": "Spellcast Roll (13). Spend a ", "color": "white", "italic": false },
+                    { "text": "Hope", "color": "gold", "italic": true }
+                  ],
+                  { "text": "on a success to create a portal to a", "color": "white", "italic": false },
+                  { "text": "point in Far range you can see.", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Reveal: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Make a Spellcast Roll. If", "color": "white", "italic": false }
+                  ],
+                  { "text": "there is anything magically hidden", "color": "white", "italic": false },
+                  { "text": "within Close range, it is revealed.", "color": "white", "italic": false }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ward_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Book of Ava - 1",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    { "text": "Codex Domain", "color": "blue", "italic": false, "bold": true },
+                    { "text": " | ", "color": "dark_gray", "bold": false },
+                    { "text": "Level 1 Grimoire", "color": "gray" }
+                  ],
+                  { "text": "Recall Cost: 2", "color": "dark_gray", "italic": false },
+                  { "text": "" },
+                  { "text": "Contains the following spells:", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Power Push: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Make a Spellcast Roll to", "color": "white", "italic": false }
+                  ],
+                  { "text": "violently push a target you can see", "color": "white", "italic": false },
+                  { "text": "within Close range. On a success, they", "color": "white", "italic": false },
+                  { "text": "are knocked back to Far range.", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Tava's Armor: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Spend a ", "color": "white", "italic": false },
+                    { "text": "Hope", "color": "gold", "italic": true },
+                    { "text": " to cast", "color": "white", "italic": false }
+                  ],
+                  { "text": "this spell on yourself or an ally within", "color": "white", "italic": false },
+                  { "text": "Close range. The target gains a +2", "color": "white", "italic": false },
+                  { "text": "bonus to Armor Score until they mark a slot.", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Ice Spike: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Make a Spellcast Roll", "color": "white", "italic": false }
+                  ],
+                  [
+                    { "text": "against a target in Far range. Deal ", "color": "white", "italic": false },
+                    { "text": "1d8+2", "color": "white", "bold": true, "italic": false },
+                    { "text": " magic dmg.", "color": "white", "italic": false }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

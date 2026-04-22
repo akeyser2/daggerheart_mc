@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ward_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Book of Homet - 7",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    { "text": "Codex Domain", "color": "blue", "italic": false, "bold": true },
+                    { "text": " | ", "color": "dark_gray", "bold": false },
+                    { "text": "Level 7 Grimoire", "color": "gray" }
+                  ],
+                  { "text": "Recall Cost: 0", "color": "dark_gray", "italic": false },
+                  { "text": "" },
+                  { "text": "Contains the following spells:", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Pass Through: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Make a Spellcast", "color": "white", "italic": false }
+                  ],
+                  { "text": "Roll (13). Once per rest on a success,", "color": "white", "italic": false },
+                  { "text": "you and all touching you can pass", "color": "white", "italic": false },
+                  { "text": "through a wall/door in Close range.", "color": "white", "italic": false },
+                  { "text": "Ends once everyone is across.", "color": "white", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Plane Gate: ", "color": "white", "bold": true, "italic": false },
+                    { "text": "Make a Spellcast Roll", "color": "white", "italic": false }
+                  ],
+                  { "text": "(14). Once per long rest on a success,", "color": "white", "italic": false },
+                  { "text": "open a gateway to a dimension or", "color": "white", "italic": false },
+                  { "text": "plane you've been to before. Gateway", "color": "white", "italic": false },
+                  { "text": "lasts until your next rest.", "color": "white", "italic": false }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ward_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Safe Haven - 8",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    { "text": "Codex Domain", "color": "blue", "italic": false, "bold": true },
+                    { "text": " | ", "color": "dark_gray", "bold": false },
+                    { "text": "Level 8 Spell", "color": "gray" }
+                  ],
+                  { "text": "Recall Cost: 3", "color": "dark_gray", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "When you have a few minutes of calm", "color": "white", "italic": false }
+                  ],
+                  [
+                    { "text": "to focus, you can spend 2 ", "color": "white", "italic": false },
+                    { "text": "Hope", "color": "gold", "italic": true },
+                    { "text": " to", "color": "white", "italic": false }
+                  ],
+                  { "text": "summon your Safe Haven, a large", "color": "white", "italic": false },
+                  { "text": "interdimensional home where you", "color": "white", "italic": false },
+                  { "text": "and your allies can take shelter.", "color": "white", "italic": false },
+                  { "text": "" },
+                  { "text": "A magical door appears somewhere", "color": "white", "italic": false },
+                  { "text": "within Close range. Only creatures", "color": "white", "italic": false },
+                  { "text": "of your choice can enter. Once", "color": "white", "italic": false },
+                  { "text": "inside, you can make the entrance", "color": "white", "italic": false },
+                  { "text": "invisible. You and anyone else", "color": "white", "italic": false },
+                  { "text": "inside can always exit.", "color": "white", "italic": false },
+                  { "text": "" },
+                  { "text": "Once you leave, the doorway must be", "color": "white", "italic": false },
+                  { "text": "summoned again. When you take a rest", "color": "white", "italic": false },
+                  { "text": "within your own Safe Haven, you can", "color": "white", "italic": false },
+                  { "text": "choose an additional downtime move.", "color": "white", "italic": false }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

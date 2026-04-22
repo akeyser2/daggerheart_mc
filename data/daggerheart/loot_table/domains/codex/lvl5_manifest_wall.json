@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ward_armor_trim_smithing_template",
+                "minecraft:custom_name": {
+                  "text": "Manifest Wall - 5",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  [
+                    { "text": "Codex Domain", "color": "blue", "italic": false, "bold": true },
+                    { "text": " | ", "color": "dark_gray", "bold": false },
+                    { "text": "Level 5 Spell", "color": "gray" }
+                  ],
+                  { "text": "Recall Cost: 2", "color": "dark_gray", "italic": false },
+                  { "text": "" },
+                  [
+                    { "text": "Make a Spellcast Roll (15). Once per", "color": "white", "italic": false }
+                  ],
+                  [
+                    { "text": "rest on a success, spend a ", "color": "white", "italic": false },
+                    { "text": "Hope", "color": "gold", "italic": true },
+                    { "text": " to", "color": "white", "italic": false }
+                  ],
+                  { "text": "create a temporary magical wall", "color": "white", "italic": false },
+                  { "text": "between two points within Far range.", "color": "white", "italic": false },
+                  { "text": "" },
+                  { "text": "It can be up to 50 feet high and form at", "color": "white", "italic": false },
+                  { "text": "any angle. Creatures or objects in its", "color": "white", "italic": false },
+                  { "text": "path are shunted to a side of your choice.", "color": "white", "italic": false },
+                  { "text": "" },
+                  { "text": "The wall stays up until your next rest", "color": "white", "italic": false },
+                  { "text": "or you cast Manifest Wall again.", "color": "white", "italic": false }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

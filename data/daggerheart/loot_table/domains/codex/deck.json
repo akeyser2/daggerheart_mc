@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {"text":"Codex Domain Deck","color":"blue","bold":true,"italic":false}
+              }
+            },
+            {
+              "function": "minecraft:set_contents",
+              "component": "minecraft:bundle_contents",
+              "entries": [
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl1_book_of_ava" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl1_book_of_illiat" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl1_book_of_tyfar" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl2_book_of_sitil" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl2_book_of_vagras" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl3_book_of_korvax" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl3_book_of_norai" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl4_book_of_exota" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl4_book_of_grynn" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl5_manifest_wall" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl5_teleport" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl6_banish" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl6_sigil_of_retribution" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl7_book_of_homet" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl7_codex-touched" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl8_book_of_vyola" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl8_safe_haven" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl9_book_of_ronin" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl9_disintegration_wave" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl10_book_of_yarrow" },
+                { "type": "minecraft:loot_table", "value": "daggerheart:domains/codex/lvl10_transcendent_union" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
