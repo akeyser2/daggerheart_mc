@@ -14,3 +14,5 @@ scoreboard objectives add dh_math dummy
 # Setup scoreboards for Hope and Stress resources
 scoreboard objectives add dh_hope dummy
 scoreboard objectives add dh_stress dummy
+
+scoreboard objectives add click_npc_stick minecraft.used:minecraft.warped_fungus_on_a_stick

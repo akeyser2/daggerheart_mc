@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick[custom_data={npc_stick:1b},custom_name=[{"text":"N","color":"red"},{"text":"P","color":"gold"},{"text":"C","color":"yellow"},{"text":" ","color":"white"},{"text":"S","color":"green"},{"text":"t","color":"blue"},{"text":"i","color":"dark_purple"},{"text":"c","color":"light_purple"},{"text":"k","color":"red"}]]
