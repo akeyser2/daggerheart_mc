@@ -32,5 +32,9 @@ execute as @a unless score @s dh_stress matches -100.. run scoreboard players se
 # Display the Hope and Stress UI in the Actionbar above the hotbar
 execute as @a run title @s actionbar [{"text":"Hope: ","color":"gold","bold":true},{"score":{"name":"*","objective":"dh_hope"},"color":"white","bold":false},{"text":"/6","color":"gray"},{"text":"   |   ","color":"dark_gray","bold":false},{"text":"Stress: ","color":"dark_purple","bold":true},{"score":{"name":"*","objective":"dh_stress"},"color":"white","bold":false},{"text":"/6","color":"gray"}]
 
-# Check for NPC Stick clicks
-execute as @a[scores={click_npc_stick=1..}] at @s run function daggerheart:npc/stick_clicked
+# NPC Stuff
+# 1. Check for ANY newly spawned living mob within 6 blocks of a GM holding the NPC Stick
+execute as @a if items entity @s weapon.offhand *[custom_data~{npc_stick:1b}] at @s as @e[tag=!old_mob,distance=..6] if data entity @s Health at @s run function daggerheart:npc/format_npc
+
+# 2. Instantly tag all new entities globally as "old_mob" so they are never processed again
+execute as @e[tag=!old_mob] run tag @s add old_mob
