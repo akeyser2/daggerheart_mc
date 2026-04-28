@@ -38,10 +38,15 @@ execute as @a store result score @s dh_maj_threshold run attribute @s minecraft:
 # Display the Actionbar UI (Evasion, DMG Thresholds, Hope, and Stress)
 # execute as @a run title @s actionbar [{"text":"Evasion: ","color":"aqua","bold":true},{"score":{"name":"*","objective":"dh_evasion"},"color":"white","bold":false},{"text":"   |   ","color":"dark_gray","bold":false},{"text":"DMG Thresholds: ","color":"red","bold":true},{"score":{"name":"*","objective":"dh_minor_threshold"},"color":"white","bold":false},{"text":"/","color":"gray"},{"score":{"name":"*","objective":"dh_major_threshold"},"color":"white","bold":false},{"text":"   |   ","color":"dark_gray","bold":false}, {"text":"Stress: ","color":"dark_purple","bold":true},{"score":{"name":"*","objective":"dh_stress"},"color":"white","bold":false},{"text":"/6","color":"gray"}, {"text":"   |   ","color":"dark_gray","bold":false},{"text":"Hope: ","color":"gold","bold":true},{"score":{"name":"*","objective":"dh_hope"},"color":"white","bold":false},{"text":"/6","color":"gray"}]
 execute as @a run title @s actionbar [{"text":"Evasion: ","color":"aqua","bold":true},{"score":{"name":"*","objective":"dh_evasion"},"color":"white","bold":false},{"text":"   |   ","color":"dark_gray","bold":false},{"text":"DMG Thresholds: ","color":"red","bold":true},{"score":{"name":"*","objective":"dh_min_threshold"},"color":"white","bold":false},{"text":"/","color":"gray"},{"score":{"name":"*","objective":"dh_maj_threshold"},"color":"white","bold":false},{"text":"   |   ","color":"dark_gray","bold":false}, {"text":"Stress: ","color":"dark_purple","bold":true},{"score":{"name":"*","objective":"dh_stress"},"color":"white","bold":false},{"text":"/6","color":"gray"}, {"text":"   |   ","color":"dark_gray","bold":false},{"text":"Hope: ","color":"gold","bold":true},{"score":{"name":"*","objective":"dh_hope"},"color":"white","bold":false},{"text":"/6","color":"gray"}]
-# NPC Stuff
+
+
+# NPC Stuff (WIP and its ass)
 # 1. Check for ANY newly spawned living mob within 6 blocks of a GM holding the NPC Stick
 execute as @a if items entity @s weapon.offhand *[custom_data~{npc_stick:1b}] at @s as @e[tag=!old_mob,distance=..6] if data entity @s Health at @s run function daggerheart:npc/format_npc
 
 # 2. Instantly tag all new entities globally as "old_mob" so they are never processed again
 execute as @e[tag=!old_mob] run tag @s add old_mob
 
+# --- THE FORGE ---
+# Check if a Blueprint is dropped near another item, and trigger the forge process
+execute as @e[type=item] if items entity @s contents *[custom_data~{dh_blueprint:1b}] at @s as @e[type=item,distance=0.1..1.5,limit=1,sort=nearest] unless items entity @s contents *[custom_data~{dh_blueprint:1b}] run function daggerheart:create/armor_prep
