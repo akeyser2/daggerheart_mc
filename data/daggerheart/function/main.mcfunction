@@ -26,18 +26,19 @@ execute as @e[type=text_display,tag=dh_text] at @s unless entity @e[type=armor_s
 execute as @e[type=item,tag=!dh_processed] if items entity @s contents *[custom_data~{dh_button:1b}] run function daggerheart:buttons/check
 
 # Initialize missing scores to default values for new players
-execute as @a unless score @s dh_hope matches -100.. run scoreboard players set @s dh_hope 0
+execute as @a unless score @s dh_hp matches -100.. run scoreboard players set @s dh_hp 6
+execute as @a unless score @s dh_hope matches -100.. run scoreboard players set @s dh_hope 2
 execute as @a unless score @s dh_stress matches -100.. run scoreboard players set @s dh_stress 0
-execute as @a unless score @s dh_evasion matches -100.. run scoreboard players set @s dh_evasion 15
-execute as @a unless score @s dh_min_threshold matches -100.. run scoreboard players set @s dh_min_threshold 0
-execute as @a unless score @s dh_maj_threshold matches -100.. run scoreboard players set @s dh_maj_threshold 0
+execute as @a unless score @s dh_evasion matches -100.. run scoreboard players set @s dh_evasion 11
+execute as @a unless score @s dh_maj_threshold matches -100.. run scoreboard players set @s dh_maj_threshold 1
+execute as @a unless score @s dh_svr_threshold matches -100.. run scoreboard players set @s dh_svr_threshold 2
+execute as @a unless score @s dh_armor_score matches -100.. run scoreboard players set @s dh_armor_score 3
 
-# Read the player's Armor Toughness (Minor Threshold) and base Armor (Major Threshold)
-execute as @a store result score @s dh_min_threshold run attribute @s minecraft:armor_toughness get
-execute as @a store result score @s dh_maj_threshold run attribute @s minecraft:armor get
+# Read the player's Armor Toughness (Minor Threshold) and base Armor (Severe Threshold)
+execute as @a store result score @s dh_maj_threshold run attribute @s minecraft:armor_toughness get
+execute as @a store result score @s dh_svr_threshold run attribute @s minecraft:armor get
 # Display the Actionbar UI (Evasion, DMG Thresholds, Hope, and Stress)
-# execute as @a run title @s actionbar [{"text":"Evasion: ","color":"aqua","bold":true},{"score":{"name":"*","objective":"dh_evasion"},"color":"white","bold":false},{"text":"   |   ","color":"dark_gray","bold":false},{"text":"DMG Thresholds: ","color":"red","bold":true},{"score":{"name":"*","objective":"dh_minor_threshold"},"color":"white","bold":false},{"text":"/","color":"gray"},{"score":{"name":"*","objective":"dh_major_threshold"},"color":"white","bold":false},{"text":"   |   ","color":"dark_gray","bold":false}, {"text":"Stress: ","color":"dark_purple","bold":true},{"score":{"name":"*","objective":"dh_stress"},"color":"white","bold":false},{"text":"/6","color":"gray"}, {"text":"   |   ","color":"dark_gray","bold":false},{"text":"Hope: ","color":"gold","bold":true},{"score":{"name":"*","objective":"dh_hope"},"color":"white","bold":false},{"text":"/6","color":"gray"}]
-execute as @a run title @s actionbar [{"text":"Evasion: ","color":"aqua","bold":true},{"score":{"name":"*","objective":"dh_evasion"},"color":"white","bold":false},{"text":"   |   ","color":"dark_gray","bold":false},{"text":"DMG Thresholds: ","color":"red","bold":true},{"score":{"name":"*","objective":"dh_min_threshold"},"color":"white","bold":false},{"text":"/","color":"gray"},{"score":{"name":"*","objective":"dh_maj_threshold"},"color":"white","bold":false},{"text":"   |   ","color":"dark_gray","bold":false}, {"text":"Stress: ","color":"dark_purple","bold":true},{"score":{"name":"*","objective":"dh_stress"},"color":"white","bold":false},{"text":"/6","color":"gray"}, {"text":"   |   ","color":"dark_gray","bold":false},{"text":"Hope: ","color":"gold","bold":true},{"score":{"name":"*","objective":"dh_hope"},"color":"white","bold":false},{"text":"/6","color":"gray"}]
+execute as @a run title @s actionbar [{"text":"Evasion: ","color":"aqua","bold":true},{"score":{"name":"*","objective":"dh_evasion"},"color":"white","bold":false},{"text":"   |   ","color":"dark_gray","bold":false},{"text":"DMG Thresholds: ","color":"red","bold":true},{"score":{"name":"*","objective":"dh_maj_threshold"},"color":"white","bold":false},{"text":"/","color":"gray"},{"score":{"name":"*","objective":"dh_svr_threshold"},"color":"white","bold":false},{"text":"   |   ","color":"dark_gray","bold":false}, {"text":"Stress: ","color":"dark_purple","bold":true},{"score":{"name":"*","objective":"dh_stress"},"color":"white","bold":false},{"text":"/6","color":"gray"}, {"text":"   |   ","color":"dark_gray","bold":false},{"text":"Hope: ","color":"gold","bold":true},{"score":{"name":"*","objective":"dh_hope"},"color":"white","bold":false},{"text":"/6","color":"gray"}]
 
 
 # NPC Stuff (WIP and its ass)

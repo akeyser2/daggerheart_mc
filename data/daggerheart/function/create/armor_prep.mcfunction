@@ -1,10 +1,24 @@
+# NOTE: Making custom magic items and weapons will be 
+#   VERY similar to this process. Items will be JUST name and Lore,
+#   while weapons will be name, Prim/Sec|OneH/TwoH, Type|Range, Trait|Dmg Die, lore, and attribute modifiers for attack damage and attack speed.
+#   damn weapons kinda suck
+
+
+# NOTE: Technically this works with any item rn.
+# Two solutions to prevent that::
+#       -Add a check to see if the item is a chestplate or not
+#       -Always make the item a leather chestplate and just change its resource to the item dropped
+# For now its fine tho idc
+
 # 1. Save the 4 pages of the Blueprint into macro storage
 data modify storage daggerheart:macro armor.name set from entity @e[type=item,distance=..0.1,limit=1,sort=nearest] Item.components."minecraft:writable_book_content".pages[0].raw
-data modify storage daggerheart:macro armor.min set from entity @e[type=item,distance=..0.1,limit=1,sort=nearest] Item.components."minecraft:writable_book_content".pages[1].raw
-data modify storage daggerheart:macro armor.max set from entity @e[type=item,distance=..0.1,limit=1,sort=nearest] Item.components."minecraft:writable_book_content".pages[2].raw
+data modify storage daggerheart:macro armor.score set from entity @e[type=item,distance=..0.1,limit=1,sort=nearest] Item.components."minecraft:writable_book_content".pages[1].raw
+data modify storage daggerheart:macro armor.min set from entity @e[type=item,distance=..0.1,limit=1,sort=nearest] Item.components."minecraft:writable_book_content".pages[2].raw
+data modify storage daggerheart:macro armor.max set from entity @e[type=item,distance=..0.1,limit=1,sort=nearest] Item.components."minecraft:writable_book_content".pages[3].raw
 # data modify storage daggerheart:macro armor.lore set from entity @e[type=item,distance=..0.1,limit=1,sort=nearest] Item.components."minecraft:writable_book_content".pages[3].raw
 # For the lore, we save the entire pages and remove the first 3
 data modify storage daggerheart:macro book_pages set from entity @e[type=item,distance=..0.1,limit=1,sort=nearest] Item.components."minecraft:writable_book_content".pages
+data remove storage daggerheart:macro book_pages[0]
 data remove storage daggerheart:macro book_pages[0]
 data remove storage daggerheart:macro book_pages[0]
 data remove storage daggerheart:macro book_pages[0]

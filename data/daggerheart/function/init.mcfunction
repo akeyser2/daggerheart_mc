@@ -11,11 +11,13 @@ team modify dh_ghost seeFriendlyInvisibles true
 # Setup the scoreboard for macro loop math
 scoreboard objectives add dh_math dummy
 
-# Setup scoreboards for Hope and Stress resources
+# Setup scoreboards for lots of shit
+scoreboard objectives add dh_hp dummy
 scoreboard objectives add dh_hope dummy
 scoreboard objectives add dh_stress dummy
-scoreboard objectives add dh_min_threshold dummy
 scoreboard objectives add dh_maj_threshold dummy
+scoreboard objectives add dh_svr_threshold dummy
+scoreboard objectives add dh_armor_score dummy
 scoreboard objectives add dh_evasion dummy
 
 scoreboard objectives add click_npc_stick minecraft.used:minecraft.warped_fungus_on_a_stick
