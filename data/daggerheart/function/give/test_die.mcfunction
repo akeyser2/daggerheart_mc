@@ -1,0 +1,1 @@
+give @s minecraft:brush[item_model="minecraft:iron_nautilus_armor", custom_name={text:"d6",color:"gold",italic:false, bold:true},custom_data={dh_dice:1b}] 1

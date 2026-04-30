@@ -1,0 +1,34 @@
+# NOTE: Making custom magic items and weapons will be 
+#   VERY similar to this process. Items will be JUST name and Lore,
+#   while weapons will be name, Prim/Sec|OneH/TwoH, Type|Range, Trait|Dmg Die, lore, and attribute modifiers for attack damage and attack speed.
+#   damn weapons kinda suck
+
+
+# NOTE: Technically this works with any item rn.
+# Two solutions to prevent that::
+#       -Add a check to see if the item is a chestplate or not
+#       -Always make the item a leather chestplate and just change its resource to the item dropped
+# For now its fine tho idc
+tellraw @p "Starting the Forge process for item"
+
+# 1. Save the name page
+data modify storage daggerheart:macro item.name set from entity @e[type=item,distance=..0.1,limit=1,sort=nearest] Item.components."minecraft:writable_book_content".pages[0].raw
+
+# For the lore, we save the entire pages and remove the first 3
+data modify storage daggerheart:macro book_pages set from entity @e[type=item,distance=..0.1,limit=1,sort=nearest] Item.components."minecraft:writable_book_content".pages
+data remove storage daggerheart:macro book_pages[0]
+
+
+# 2. Save the vanilla armor's Item ID (e.g. "minecraft:iron_chestplate")
+data modify storage daggerheart:macro item.type set from entity @s Item.id
+
+# 3. Trigger the final Macro command
+function daggerheart:create/forge_item with storage daggerheart:macro item
+
+# 4. Play the Forge effects!
+particle flame ~ ~ ~ 0.2 0.2 0.2 0.05 50
+playsound block.anvil.use master @a[distance=..15] ~ ~ ~ 1 1
+
+# 5. Destroy the original Book and Vanilla Armor
+kill @e[type=item,distance=..0.1,limit=1,sort=nearest]
+kill @s

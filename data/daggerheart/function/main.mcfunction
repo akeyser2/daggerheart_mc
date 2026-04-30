@@ -50,4 +50,6 @@ execute as @e[tag=!old_mob] run tag @s add old_mob
 
 # --- THE FORGE ---
 # Check if a Blueprint is dropped near another item, and trigger the forge process
-execute as @e[type=item] if items entity @s contents *[custom_data~{dh_blueprint:1b}] at @s as @e[type=item,distance=0.1..1.5,limit=1,sort=nearest] unless items entity @s contents *[custom_data~{dh_blueprint:1b}] run function daggerheart:create/armor_prep
+execute as @e[type=item] if items entity @s contents *[custom_data~{dh_armor_bp:1b}] at @s as @e[type=item,distance=0.1..1.5,limit=1,sort=nearest] unless items entity @s contents *[custom_data~{dh_armor_bp:1b}] run function daggerheart:create/armor_prep
+execute as @e[type=item] if items entity @s contents *[custom_data~{dh_item_bp:1b}] at @s as @e[type=item,distance=0.1..1.5,limit=1,sort=nearest] unless items entity @s contents *[custom_data~{dh_item_bp:1b}] run function daggerheart:create/item_prep
+execute as @e[type=item] if items entity @s contents *[custom_data~{dh_weapon_bp:1b}] at @s as @e[type=item,distance=0.1..1.5,limit=1,sort=nearest] unless items entity @s contents *[custom_data~{dh_weapon_bp:1b}] run function daggerheart:create/weapon_prep

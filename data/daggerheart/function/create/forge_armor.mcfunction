@@ -8,9 +8,6 @@ $summon item ~ ~ ~ {Item:{id:"$(type)",count:1}, Tags:["dh_forged"]}
 $item replace entity @e[type=item,tag=dh_forged,limit=1] contents with $(type)[max_damage=$(score)d,damage=1,custom_name={text:"$(name)",color:"gold",italic:false},lore=[{text:"When Worn:",color:"gray",italic:false},{text:" DMG Thresholds: $(min) / $(max)",color:"red",italic:false},{text:""},{text:"",color:"dark_gray",italic:true}],attribute_modifiers=[{id:"daggerheart:major",type:"minecraft:armor",amount:$(max)d,operation:"add_value",slot:"chest"},{id:"daggerheart:minor",type:"minecraft:armor_toughness",amount:$(min)d,operation:"add_value",slot:"chest"},],tooltip_display={hidden_components:["minecraft:attribute_modifiers"]}]
 
 # 3. Construct the custom GM Lore inside storage to keep the linter happy
-# data modify storage daggerheart:macro new_lore set value {color:"white",italic:true}
-# data modify storage daggerheart:macro new_lore.text set from storage daggerheart:macro armor.lore
-# data modify storage daggerheart:macro new_lore.text set value "Test"
 function daggerheart:create/append_lore
 
 
